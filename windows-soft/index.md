@@ -1,4 +1,5 @@
 # Windows soft for developer
+[Manuals](../index.md)
 
 ### [PHP](php.md)
 

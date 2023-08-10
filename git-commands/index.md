@@ -1,4 +1,5 @@
 # Git Commands
+[Manuals](../index.md)
 
 Before you begin development with Git, ensure you've checked the global
 settings for Git. To do this, execute the following command:

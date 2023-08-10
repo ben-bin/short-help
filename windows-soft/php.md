@@ -1,4 +1,5 @@
 # Install PHP for Windows
+[Manuals Windows](index.md)
 
 For more information check site [PHP for Windows](https://windows.php.net)
 
@@ -41,5 +42,5 @@ setx Path "%Path%C:\php;" /M
 If you have extracted PHP to a different folder, such as `C:\other\folder`, you
 will need to execute the following command use CMD as Administrator:
 ```cmd
-`mklink /D C:\php C:\other\folder`
+mklink /D C:\php C:\other\folder
 ```

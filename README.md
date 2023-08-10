@@ -9,3 +9,4 @@ or
 ```shell
 git clone https://github.com/ben-bin/short-help.git
 ```
+## [Helps Manual](index.md)
