@@ -1,8 +1,10 @@
 # Windows soft for developer
 [Manuals](../index.md)
 
-### [PHP](php.md)
-
+### PHP
+A popular general-purpose scripting language that is especially suited to web
+development. Fast, flexible and pragmatic, [PHP](php.md) powers everything from your
+blog to the most popular websites in the world.
 ### PuTTY
 [PuTTY](https://www.putty.org/) is an SSH and telnet client, developed
 originally by Simon Tatham for the Windows platform.

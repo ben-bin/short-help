@@ -26,6 +26,7 @@ First, enable any required extensions according to the libraries you want to use
 The following extensions should be suitable for most applications including.
 
 ### Step 4: Add `C:\php` to the `PATH` environment variable
+#### GUI Version
 To ensure Windows can find the PHP executable, you must add it to the `Path` 
 environment variable. Click the __Windows Start__ button and type “environment”,
 then click __Edit the system environment variables__. Select the __Advanced__
@@ -34,13 +35,14 @@ tab, and click the __Environment Variables__ button.
 Scroll down the __System variables__ list and click __Path__, followed by the
 __Edit__ button. Click __New__ and add `C:\php`.
 
-Or use CMD run as Administrator and make command
+#### CMD Version
+Run CMD as Administrator and make command
 ```cmd
 setx Path "%Path%C:\php;" /M
 ```
 
-If you have extracted PHP to a different folder, such as `C:\other\folder`, you
-will need to execute the following command use CMD as Administrator:
-```cmd
-mklink /D C:\php C:\other\folder
-```
+>If you have extracted PHP to a different folder, such as `C:\other\folder`, you
+>will need to execute the following command use CMD as Administrator:
+>```cmd
+>mklink /D C:\php C:\other\folder
+>```
